@@ -1,0 +1,91 @@
+/**
+ * Auhtor bhatthaamid@gmail.com
+ * Haamid Ahmad Bhat
+ */
+
+* {
+  font-family: "Roboto";
+}
+.img-logo {
+  object-fit: contain;
+  height: 45px;
+}
+
+.active {
+  color: #1694d3 !important;
+  text-decoration: underline;
+}
+
+.breadcrumb-item a {
+  text-decoration: none !important;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  color: white !important;
+}
+
+.form-control {
+  font-size: 14 !important;
+}
+
+.content-center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact-us {
+  color: #fff;
+  font-size: 14px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+.vertical-line {
+  background-color: transparent !important;
+  --bs-gutter-x: 0px !important;
+  border-left: dashed;
+  border-left-width: 2px;
+  padding-left: 100px;
+}
+.bg-primary {
+  background-color: #1694d3 !important;
+}
+.custom-btn-color {
+  background-color: #ff914d !important;
+  color: #fff;
+  font-weight: bold;
+}
+.custom-btn-color:hover {
+  color: #fffff1;
+}
+
+footer span {
+  color: #1694d3;
+}
+
+.asterisk-color {
+  color: #ff6f6f;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 14px;
+}
+.font-size-12 {
+  font-size: 12px;
+}
+.font-bold {
+  font-weight: bold;
+}
+label {
+  font-weight: bold;
+  font-size: 12px;
+  padding-bottom: 8px;
+}
